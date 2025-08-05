@@ -6,7 +6,7 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+Contractility analysis comes as pre-compiled application. Will need matlab runtime installed.
 
 .. code-block:: console
 
