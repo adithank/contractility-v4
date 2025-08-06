@@ -35,7 +35,7 @@ html_static_path = ['_static']
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
 
-rst_prolog = """
-.. |static| replace:: /_static
-"""
+# rst_prolog = """
+# .. |static| replace:: /_static
+# """
 
