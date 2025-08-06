@@ -36,7 +36,6 @@ Step 2: Create a new job
 Navigate to the folder with images. The software will recursively look for sub-folders in the selected folder with "tif" files. 
 
 .. image:: static/images/2.png
-   :alt: Screenshot showing the second step
    :width: 600px
 
 This example dataset has the following organization for imaging a 96 well plate. Each well has sub-positions (e.g. r_0004_c_0004). 
