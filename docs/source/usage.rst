@@ -24,7 +24,8 @@ After installation, either double-click on the shortcut or search for "Contracti
 
 You should see this window pop-up:
 
-.. image:: /_static/images/1.png
+.. image:: static/images/1.png
+   :alt: Screenshot showing the first step
    :width: 600px
 
 Click on "Create a new job" (1) to start from scratch. If you want to open already created job, click button (2).
@@ -40,12 +41,12 @@ Navigate to the folder with images. The software will recursively look for sub-f
 This example dataset has the following organization for imaging a 96 well plate. Each well has sub-positions (e.g. r_0004_c_0004). 
 4 channels are imaged (beads, empty, MTDeepRed, ref) for each position. E.g. see the below screenshot:
 
-.. image:: /_static/images/0_1.png
+.. image:: static/images/0_1.png
    :width: 600px
 
 Each of the folder contains one or more "tif" files. If it is a timeseries, the files should have some numbering that increases with time. Eg:
 
-.. image:: /_static/images/0_2.png
+.. image:: static/images/0_2.png
    :width: 600px
 
 
@@ -58,7 +59,7 @@ Click (2) if alias needs modification to open "Make Alias" sub-app. Click (3) to
 
 E.g. "Clear All" was clicked to clear Analyze column. Then, only MTDeepRed folder is selected for analysis using the "Selection filter" sub-app. 
 
-.. image:: /_static/images/3.png
+.. image:: static/images/3.png
    :width: 600px
 
 
@@ -72,7 +73,7 @@ In case you want to measure resting tension with a soft substrate plate, please 
 
 Please enter the correct frame rate in "Acquisition rate" dialog box. For PIV parameters, keep it at default. Refer to the manuscript for more details.
 
-.. image:: /_static/images/4.png
+.. image:: static/images/4.png
    :width: 600px
 
 Step 5: TFM and performance parameters 
@@ -83,7 +84,7 @@ If using soft substrate plate, enter the optical calibration and gel properties.
 Please use the parameters shown below (image) for best performance. If not using GPU, change 'GPU acceleration' to "disabled".
 
 
-.. image:: /_static/images/5.png
+.. image:: static/images/5.png
    :width: 600px
 
 
@@ -92,17 +93,17 @@ Step 6: Start analysis
 
 Click 'Start Analysis button'.
 
-.. image:: /_static/images/6.png
+.. image:: static/images/6.png
    :width: 600px
 
 Status is updated as analysis goes. 
 
-.. image:: /_static/images/7.png
+.. image:: static/images/7.png
    :width: 600px
 
 Click 'Quit' to stop  after the next step. Now, you can go back to change parameters and start again.
 
-.. image:: /_static/images/8.png
+.. image:: static/images/8.png
    :width: 600px
 
 
@@ -111,7 +112,7 @@ Step 7: Results
 
 Once the analysis is done, it generates the following files in the output folder 
 
-.. image:: /_static/images/10.png
+.. image:: static/images/10.png
    :width: 600px
 
 - output       -     Results of contractility analysis for each folder
@@ -124,7 +125,7 @@ Once the analysis is done, it generates the following files in the output folder
 
 Example of the motion/traction file with the different parameters (See manuscript for details):
 
-.. image:: /_static/images/11.png
+.. image:: static/images/11.png
    :width: 600px
 
 
